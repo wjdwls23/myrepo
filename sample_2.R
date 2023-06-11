@@ -1,4 +1,3 @@
-hist(rnorm(1000))
 library(rvest)
 library(tidyverse)
 library(httr)
