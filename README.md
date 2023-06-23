@@ -32,15 +32,19 @@
 - 영업이익증가(%) = {(현 회계연도 영업이익-전 회계연도 영업이익)/전 회계연도 영업이익}*100<br/>
 (영업이익 = 매출액-매출원가-판매관리비)
 <br/>
-반도체와 반도체장비 관련 기업들 중 현재 거래량이 많은 기업 40개를 추출하였다.<br/>
-(현재 시장 관심과 활발한 거래가 이루어지는 기업 위주)
 
-- 등락률>0, 거래량 상위 20인 기업과 등락률<0, 거래량 상위 20인 기업의 데이터프레임 합치기
+`-` 반도체와 반도체장비 관련 기업들 중 현재 거래량이 많은 기업 40개를 추출하였다.<br/>
+(현재 시장 관심과 활발한 거래가 이루어지는 기업 위주)<br/>
+<br/>
+
+`-` 등락률>0, 거래량 상위 20인 기업과 등락률<0, 거래량 상위 20인 기업의 데이터프레임 합치기
   
-<img width="486" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/ba27bd0e-f877-4312-ba08-6872e50cbedb">
+<img width="486" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/ba27bd0e-f877-4312-ba08-6872e50cbedb"><br/>
 
-- 영업이익증가율과 매출액증가율의 분포
-<img width="1160" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/6010738c-de34-4d7c-8ec5-b2c37128fd56">
+
+`-` 영업이익증가율과 매출액증가율의 분포 <br/>
+<img width="1160" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/6010738c-de34-4d7c-8ec5-b2c37128fd56"><br/>
+
 
 ```
 - 영업이익률도 크게 나쁘지 않고 매출액 증가율도 높은 편이다.
@@ -48,25 +52,30 @@
 - 올해 하반기에는 계절적 수요 증가와 공급 조절에 따른 재고소진 속도가 빨라질 것이며 연말로 갈수록 글로벌 경제 및 IT 수요 회복에 힘입어서 성장 모멘텀이 개선될 전망이라고 한다. (출처 : 국제금융센터 - 글로벌 반도체 업황 전망 및 국내 영향)
 ```
 
+<br/>
 
 2) PER, ROE 분석
 
 - PER : 한주의 주가가 얼마인지 나타내는 지표 (주가/주당순이익) => 주당순이익이 같다면 주가가 낮은 기업(저평가기업)이 오를 가능성이 높다.
 - ROE : 기업의 자기자본에 대한 수익성을 나타내는 지표 ((당기순이익/자기자본)*100) => ROE가 높으면 주주에게 높은 수익을 창출하고 기업이 효율적으로 자본을 운용한다는 의미.
 
-<img width="452" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/b535274e-1c13-43e2-9b05-7f5cb5434c3b">
+<img width="894" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/b9ed4cf1-200e-4e10-8d28-0d5e49e8a7d2"><br/>
+
 
 - 몇몇 기업들을 제외하고 대부분 기업들이 PER과 ROE가 비슷한 수치를 가지고 있다. 기업의 수익성과 가치가 비슷한 수준으로 평가되고 있음을 알 수 있다.(성장가능성과 안정성이 균형을 이루고 있음)
 
+<br/>
 
 ## 3. 네이버증권에서 얻을 수 있는 추가적인 통계분석
 1) 삼성전자와 sk하이닉스의 외국인 소진율 비교(2016년부터 지금까지 월별 데이터 수집)
-<img width="455" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/e01deb3c-872d-49ee-872c-e947a17340ce">
+<img width="818" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/a7500a32-9655-4787-bde4-4e14c04a1d4d">
+
 
 - 두 기업 모두 높은 외국인 소진율을 가지고 있다.
 
 2) 삼성전자의 거래량과 종가의 상관관계
-<img width="433" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/7469f858-e628-4b14-8a32-35fb5e9960b6">
+
+<img width="835" alt="image" src="https://github.com/wjdwls23/myrepo/assets/127033471/da0bfe50-108a-4eaa-941c-d3c4c6b91c11">
 
 - 거래량과 종가가 양의 상관관계를 가짐을 알 수 있다. 회귀선의 기울기가 유의미한지 t-검정을 한 결과 p-value가 기각되어 유의미하다고 할 수 있다.
    
